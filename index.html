@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Codigo Enigma</title>
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+  <link href='https://fonts.googleapis.com/css?family=Bungee Inline' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
+  <link rel="icon" href="icono/secreto.png">
+</head>
+
+<body>
+  <audio id="audio" autoplay>
+    <source id="srcaudio" src="assets/audio/PIANO.mp3" type="audio/mp3">
+  </audio>
+
+  <h1 class="titulo"><span class="dis1">&#128173</span><span class="dis2">&#128172</span><span
+      class="dis3">&#128173</span>Top Secret<span class="dis1">&#128173</span><span class="dis2">&#128172</span><span
+      class="dis3">&#128173</span></h1>
+  <div class="borde1">
+    <label>Mensaje Secreto</label><br>
+    <textarea id="msg" rows="4" cols="50" placeholder="Escribe tu mensaje secreto" name="name"></textarea>
+    <br>
+
+    <img src="Gif/gif-cat.gif" width="150px" height="120px" aling="left" alt="gato en laptop"><br>
+    <label>Clave Secreta:</label>
+    <div>
+      <input id="pass" type="password" placeholder="Escribe tu clave secreta" name="name">
+    </div><br>
+    <button class="neon1" onclick="encriptar()">Encriptar</button>
+    <br><br>
+    <label>Mensaje Encriptado:</label>
+    <br>
+    <span id="demo1"></span>
+    <br>
+    <label>Codigo</label>
+    <br>
+    <div>
+      <input id="Codigo" type="text" placeholder="copia y pega aqui tu mensaje secreto" name="name">
+    </div>
+    <br>
+    <button class="neon2" onclick="desencriptar()">Desencriptar</button>
+    <br>
+    <br>
+    <label>Mensaje Real:</label><br>
+    <span id="demo2"></span>
+    <br><span id="error"></span>
+    <br>
+    <br>
+    <a href="a" class="btn-neon">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+      <span id="span4"></span>
+      ADA LOVELACE
+    </a>
+  </div>
+  <script src="assets/JS/script.js"></script>
+</body>
+
+</html>
