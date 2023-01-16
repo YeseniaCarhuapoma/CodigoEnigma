@@ -1,11 +1,8 @@
 # TopSecret
 ## Problematica:
-Suele suceder que cuando compartes la clave de tu tarjeta 
-con alguien no esta tan seguro o cuando deseas tener una conversacion
-mas secreta con tu pareja, amigos o familiares en muchas ocasiones suelen ser 
-descubiertas.
+En la actualidad la privacidad de los mensajes a través de las paginas web van de mal en peor, lo que hace generar inseguridad y desconfianza en las personas, como por ejemplo: al momento de compartir la clave de una tarjeta, alguna conversación privada o secreto, las personas no se sienten confiadas al enviar el mensaje con el miedo a que otro usuario no desea este observando su coversacion e incluso robe su informacion secreta.
 ## Usuario:
-Para todos en gener,  tanto como para adultos, jovenes y adolecentes.
+Para todos en general,  tanto como para adultos, jovenes y adolecentes.
 ## Descripcion:
 Nuestro proyecto tiene la finalidad de que
 podras tener una conversacion mas segura, 
